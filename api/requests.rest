@@ -6,15 +6,15 @@ POST http://localhost:3001/todo/new HTTP/1.1
 Content-Type: application/json
 
 {
-  "text": "order milk"
+  "text": "love world"
 }
 
 ### 
 
-DELETE http://localhost:3001/todo/delete/61e322f306adc3559c9fc7cd
+DELETE http://localhost:3001/todo/delete/61e8598a2742d658d5ab50b0
 
 ###
-PUT http://localhost:3001/todo/update/61e07a2ef520ff89af3da200
+PUT http://localhost:3001/todo/update/61e8599a2742d658d5ab50b2
 Content-Type: application/json
 {
   "text":"sun bread"
